@@ -1,0 +1,23 @@
+{
+  "name": "graphql-podcast-explorer",
+  "version": "0.0.0",
+  "description": "An example exploring podcast data using GraphQL",
+  "keywords": [],
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm run docker:up",
+    "build": "npm run docker:build",
+    "docker:up": "docker-compose up",
+    "docker:build": "docker-compose up --remove-orphans --build --force-recreate",
+    "docker:down": "docker-compose down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/graphql-podcast-explorer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/graphql-podcast-explorer/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/graphql-podcast-explorer#readme"
+}

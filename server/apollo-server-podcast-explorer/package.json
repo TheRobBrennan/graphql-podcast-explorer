@@ -1,0 +1,15 @@
+{
+  "name": "apollo-server-podcast-explorer",
+  "version": "0.0.0",
+  "keywords": [],
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.7",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.5.8",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.8",
+    "nodemon": "^1.19.4"
+  }
+}
