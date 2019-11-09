@@ -1,3 +1,4 @@
+node_modules
 client/react-podcast-explorer/node_modules
 server/apollo-server-podcast-explorer/node_modules
 server/apollo-server-podcast-explorer/.env
