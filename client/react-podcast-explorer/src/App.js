@@ -1,11 +1,16 @@
 import React from 'react';
+import './App.css';
+
 import CassetteMediaPlayer from './components/CassetteMediaPlayer/CassetteMediaPlayer';
 
 function App() {
   return (
     <div>
-      <h1>GraphQL: Podcast Explorer</h1>
-      <CassetteMediaPlayer />
+      <header>GraphQL: Podcast Explorer</header>
+      <main>
+        <CassetteMediaPlayer />
+      </main>
+      <footer>Copyright &copy; 2019 Rob Brennan. All rights reserved.</footer>
     </div>
   );
 }
