@@ -26,6 +26,7 @@ const playlist = [
 export default () => {
   return (
     <PlayerContextProvider playlist={playlist}>
+      <PlaylistMenu />
       <MediaPlayerControls
         showVideo
         controls={[
@@ -44,10 +45,6 @@ export default () => {
           'progress',
         ]}
       />
-      <div>
-        <h3>Select a track:</h3>
-        <PlaylistMenu />
-      </div>
     </PlayerContextProvider>
   );
 };
