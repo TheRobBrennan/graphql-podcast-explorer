@@ -30,6 +30,7 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
+  max-width: 80vw;
   height: 100%; }
   .cassette__control_bar {
     display: -webkit-box;
