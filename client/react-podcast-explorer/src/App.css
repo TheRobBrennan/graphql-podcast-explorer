@@ -10,11 +10,26 @@ body {
   flex-direction: column;
 }
 
-header,
-footer {
+header {
   height: 30px;
 }
 
+footer {
+  margin-top: 10px;
+  height: 30px;
+  text-align: center;
+}
+
 main {
-  flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  flex: 0 0 15em;
+}
+
+.player {
+  min-height: 40vh;
+  min-width: 50vw;
+  flex: 1 0 15em;
 }

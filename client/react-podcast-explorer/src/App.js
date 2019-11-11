@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import CassetteMediaPlayer from './components/CassetteMediaPlayer/CassetteMediaPlayer';
+// import CassetteMediaPlayer from './components/CassetteMediaPlayer/CassetteMediaPlayer';
+import CassetteMediaPlayer from './components/CassetteMediaPlayer/CassetteMediaPlayerAdvanced';
 
 function App() {
   return (

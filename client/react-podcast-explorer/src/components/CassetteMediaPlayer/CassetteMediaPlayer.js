@@ -2,7 +2,6 @@ import React from 'react';
 
 // Cassette Media Player - https://benwiley4000.github.io/cassette/styleguide/#cassette-quick-start
 import { MediaPlayer } from '@cassette/player';
-// import '@cassette/player/dist/css/cassette-player.css';
 import './CassetteMediaPlayer.css';
 
 // Custom playback control
