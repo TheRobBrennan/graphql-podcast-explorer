@@ -26,25 +26,29 @@ const playlist = [
 export default () => {
   return (
     <PlayerContextProvider playlist={playlist}>
-      <PlaylistMenu />
-      <MediaPlayerControls
-        showVideo
-        controls={[
-          'spacer',
-          'backskip',
-          'playpause',
-          'forwardskip',
-          'mute',
-          playerContext => (
-            <PlaybackRateControl
-              playbackRate={playerContext.playbackRate}
-              onSetPlaybackRate={playerContext.onSetPlaybackRate}
-            />
-          ),
-          'spacer',
-          'progress',
-        ]}
-      />
+      <div className="sidebar">
+        <PlaylistMenu />
+      </div>
+      <div className="player">
+        <MediaPlayerControls
+          showVideo
+          controls={[
+            'spacer',
+            'backskip',
+            'playpause',
+            'forwardskip',
+            'mute',
+            playerContext => (
+              <PlaybackRateControl
+                playbackRate={playerContext.playbackRate}
+                onSetPlaybackRate={playerContext.onSetPlaybackRate}
+              />
+            ),
+            'spacer',
+            'progress',
+          ]}
+        />
+      </div>
     </PlayerContextProvider>
   );
 };
