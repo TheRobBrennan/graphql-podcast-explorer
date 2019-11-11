@@ -29,5 +29,7 @@ main {
 }
 
 .player {
-  flex: 3;
+  min-height: 40vh;
+  min-width: 50vw;
+  flex: 1 0 15em;
 }
